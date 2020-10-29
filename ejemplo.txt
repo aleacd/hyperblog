@@ -1,0 +1,6 @@
+Ejemplo para el curso de Git y Git hub!
+
+Y apartir de aca estoy editando con la terminal!
+
+
+Esto deberia de aparecer en VSCode
