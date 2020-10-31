@@ -1,0 +1,7 @@
+Este es un nuevo ejemplo para probar cambios con Git
+
+Ademas de leer las notas de la comunidad
+
+Tambien se pone en practica lo aprendido
+
+Aprendemos a usar reset
