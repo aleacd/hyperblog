@@ -1,0 +1,147 @@
+commit e9ca6dd0833eb0613d2f87d3eef2257962100da6
+Author: Alejandro Campos <alejandrocampos195@gmail.com>
+Date:   Sat Oct 31 04:00:02 2020 -0300
+
+    Eliminacion de archivo sobrante
+
+diff --git a/estilos.css b/estilos.css
+deleted file mode 100644
+index fa5955a..0000000
+--- a/estilos.css
++++ /dev/null
+@@ -1,6 +0,0 @@
+-body
+-{
+-    color: blueviolet;
+-    text-align: center;
+-    font-family: "Arial";
+-}
+\ No newline at end of file
+
+commit 86dbf8a803a14ec110c2b897b9c641c1b5b7d300
+Author: Alejandro Campos <alejandrocampos195@gmail.com>
+Date:   Fri Oct 30 15:29:36 2020 -0300
+
+    Cambios de testeo para las proximas clases
+
+diff --git a/ejemplo.txt b/ejemplo.txt
+index 38e9b66..29a9f0b 100644
+--- a/ejemplo.txt
++++ b/ejemplo.txt
+@@ -3,4 +3,4 @@ Ejemplo para el curso de Git
+ apartir de aca estoy editando con la terminal desde linux!
+ 
+ 
+-Esto deberia de aparecer en VSCode pero tambien en la terminal 
++Esto deberia de aparecer en VSCode y la terminal
+
+commit e6d60e38796aa1bfa2764991f92dbfae8ba6195f
+Author: Alejandro Campos <alejandrocampos195@gmail.com>
+Date:   Fri Oct 30 14:45:52 2020 -0300
+
+    Arranco mi primer proyecto con html y css
+
+diff --git a/CSS/estilos.css b/CSS/estilos.css
+new file mode 100644
+index 0000000..fa5955a
+--- /dev/null
++++ b/CSS/estilos.css
+@@ -0,0 +1,6 @@
++body
++{
++    color: blueviolet;
++    text-align: center;
++    font-family: "Arial";
++}
+\ No newline at end of file
+diff --git a/blogpost.html b/blogpost.html
+new file mode 100644
+index 0000000..6f28014
+--- /dev/null
++++ b/blogpost.html
+@@ -0,0 +1,12 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Titulo del post</title>
++    <link rel="stylesheet" href="CSS/estilos.css" />
++</head>
++<body>
++    <h1>Aqui vamos a hacer un post</h1>
++    <p>Y este va a ser un parrafo</p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/estilos.css b/estilos.css
+new file mode 100644
+index 0000000..fa5955a
+--- /dev/null
++++ b/estilos.css
+@@ -0,0 +1,6 @@
++body
++{
++    color: blueviolet;
++    text-align: center;
++    font-family: "Arial";
++}
+\ No newline at end of file
+
+commit 495051c378f0065378ed16f26a096c3615a12eea
+Author: Alejandro Campos <alejandrocampos195@gmail.com>
+Date:   Thu Oct 29 07:10:07 2020 -0300
+
+    Cambios numero 2
+
+diff --git a/ejemplo.txt b/ejemplo.txt
+index 6883025..38e9b66 100644
+--- a/ejemplo.txt
++++ b/ejemplo.txt
+@@ -1,6 +1,6 @@
+ Ejemplo para el curso de Git
+ 
+-Y apartir de aca estoy editando con la terminal desde linux!
++apartir de aca estoy editando con la terminal desde linux!
+ 
+ 
+-Esto deberia de aparecer en VSCode
++Esto deberia de aparecer en VSCode pero tambien en la terminal 
+
+commit 59a013b9f39db85efd3854c966f6bd9e340c85b7
+Author: Alejandro Campos <alejandrocampos195@gmail.com>
+Date:   Thu Oct 29 07:05:58 2020 -0300
+
+    Cambios
+
+diff --git a/ejemplo.txt b/ejemplo.txt
+index 0b6e9dd..6883025 100644
+--- a/ejemplo.txt
++++ b/ejemplo.txt
+@@ -1,6 +1,6 @@
+-Ejemplo para el curso de Git y Git hub!
++Ejemplo para el curso de Git
+ 
+-Y apartir de aca estoy editando con la terminal!
++Y apartir de aca estoy editando con la terminal desde linux!
+ 
+ 
+ Esto deberia de aparecer en VSCode
+
+commit 5126d8346b6ef73a25893e81bcbaa99c5554d73e
+Author: Alejandro Campos <alejandrocampos195@gmail.com>
+Date:   Thu Oct 29 07:03:01 2020 -0300
+
+    Este es el primer commit
+
+diff --git a/ejemplo.txt b/ejemplo.txt
+new file mode 100644
+index 0000000..0b6e9dd
+--- /dev/null
++++ b/ejemplo.txt
+@@ -0,0 +1,6 @@
++Ejemplo para el curso de Git y Git hub!
++
++Y apartir de aca estoy editando con la terminal!
++
++
++Esto deberia de aparecer en VSCode
